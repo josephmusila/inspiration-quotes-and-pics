@@ -1,0 +1,182 @@
+body{
+    background: rgb(249, 253, 253);
+}
+.home{
+    text-align: center;
+    margin: auto;
+}
+.home img{
+    height: 20%;
+    width: 20%;
+    animation-name: flower;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+@keyframes flower{
+0%
+    {
+        transform: translateX(0px);
+        transform: rotate(0deg);
+    }
+100%
+    {
+        transform: translateX(200px);
+        transform: rotate(360deg);
+        
+    }
+}
+.home h1{
+    margin:auto ;
+    color: black;
+    font-size: 20px;
+}
+#welcome-text p{
+    color: orangered;
+    font-size: 40px;
+    float: left;
+    font-family: sans-serif;
+}
+nav{
+    position: fixed;
+}
+.navbar-toggler{
+    background: orangered;
+}
+#navbarMenu >ul > li > a{
+    color: orangered;
+    transition: 0.5s;
+
+}
+#navbarMenu >ul > li > a:hover{
+    background-color: rgb(247, 185, 128);
+    border-bottom:2px solid white ;
+    color: white;
+}
+.active{
+    background-color: rgb(247, 185, 128);
+    border-bottom:2px solid white ;
+    color: white;
+}
+.home1{
+    text-align: center;
+    padding: 0;
+    padding-bottom: 10px;
+}
+.home1 button{
+    padding: 7px;
+    transition: all 900ms ease;
+   
+}
+.home1 button:hover{
+    background-color: orangered;
+    color: white;
+}
+#home1-text{
+    
+    display: none;
+    color: orangered;
+    font-size: 25px;
+    
+}
+
+.saying:hover{
+    animation-name: say;
+    animation-duration: 3s;
+    animation-direction: reverse;
+    animation-timing-function: linear;
+}
+.saying{
+    background-color: rgb(255, 249, 241);
+    transition: all 500ms ease;
+    
+}
+.display-3{
+    padding: 10px;
+    color: orangered;
+    font-weight: 400;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.col-12 #ano{
+    text-align: right;
+    font-style: italic;
+    text-decoration: underline;
+}
+.more{
+    text-align: center;
+    color: orangered;
+    padding: 5px;
+    font-size: 20px;
+}
+#more,.more{
+    background-color: rgb(196, 189, 189);
+    margin: auto;
+}
+.more p{
+    transition: all 400ms ease;
+    
+}
+.more p:hover{
+    background-color: orangered;
+    color: white;
+    cursor: pointer;
+}
+#next-page{
+    margin: auto;
+    margin-top: 10px;
+    padding: 3px;
+
+}
+#moreimage{
+    height: 400px;
+    width: auto;
+    margin-top: 10px;
+    padding: 10px;
+    transition: all 400ms ease;
+
+}
+#moreimage:hover{
+    padding: 0px;
+    margin-top: 0px;
+}
+#close{
+    margin-top: 5px;
+   text-align: right !important;
+}  
+#next-page{
+    text-align: center;
+    margin: auto;
+}
+.row{
+    padding: 10px;
+}
+
+#app-features{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}
+#app-card{
+
+    padding: 10px;
+    
+    transition: all 400ms ease;
+}
+#app-card img{
+    margin-top: 5px;
+    width: 60%;
+    height: 50%;
+    border: 14px solid rgb(87, 29, 8);
+    background-color: rgb(241, 171, 145);
+}
+#app-card span{
+    color: orangered;
+    font-weight: bold;
+    text-decoration: underline;
+    cursor: pointer;
+}
+#app-card:hover{
+    border-style: none;
+    box-shadow: inset 0px 0px 10px 10px orangered;
+}
